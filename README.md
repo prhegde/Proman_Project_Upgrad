@@ -37,8 +37,12 @@ database.password=password
 # Step 6
 Configure the important configuration details in application.yaml file
 
+![alt text](https://github.com/prhegde/Proman_Project_Upgrad/blob/master/app_yaml.png)
+
 # Step 7
 Run mvn clean install in the parent module. This will automatically create the model classes by building on the Swagger based JSON files.
+
+![alt text](https://github.com/prhegde/Proman_Project_Upgrad/blob/master/json_files.png)
 
 For each feature, there is a different JSON file.
 It will create all the model classes inside the Target folder once the building is complete.
@@ -50,6 +54,8 @@ Create a DB through command line or directly from the PGAdmin client tool, where
 # Step 9
 Run the maven profile activation command (mvn clean install -Psetup) from within the DB module.
 
+![alt text](https://github.com/prhegde/Proman_Project_Upgrad/blob/master/profile_activation.png)
+
 # Step 10
 Run the Main application file: PromanApiApplication class
 
@@ -59,4 +65,6 @@ To check out all the Swagger information, use below address:
 
 http://localhost:8080/api/swagger-ui.html
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/prhegde/Proman_Project_Upgrad/blob/master/swagger_ui.png)
+
+![alt text](https://github.com/prhegde/Proman_Project_Upgrad/blob/master/signup_image.png)
